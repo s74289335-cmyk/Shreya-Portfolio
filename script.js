@@ -16,8 +16,8 @@ nav?.querySelectorAll('a').forEach(link => link.addEventListener('click', () => 
 document.getElementById('year').textContent = new Date().getFullYear();
 
 const profile = {
-  email: '',
-  linkedin: '',
+  email: 'shreyavernekar007@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/shreya-udaya-vernekar-570603345/',
   github: 'https://github.com/s74289335-cmyk'
 };
 
