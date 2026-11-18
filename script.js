@@ -26,7 +26,7 @@ const projectLinks = {
   'secureai-repo': 'https://github.com/secureai79/SecureAI',
   'layerly-demo': '',
   'layerly-repo': '',
-  'ranano-demo': '',
+  'ranano-demo': 'https://ranano.pages.dev/',
   'ranano-repo': 'https://github.com/s74289335-cmyk/Ranano',
   'diffusion-demo': '',
   'diffusion-repo': ''
