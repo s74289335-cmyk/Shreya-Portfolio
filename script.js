@@ -24,25 +24,17 @@ const profile = {
 const projectLinks = {
   'secureai-demo': 'https://cb11df24.secureai-8kt.pages.dev/',
   'secureai-repo': 'https://github.com/secureai79/SecureAI',
-  'layerly-demo': '',
-  'layerly-repo': '',
+  'layerly-demo': 'https://shreya-portfoilo.dev/',
+  'layerly-repo': 'https://github.com/s74289335-cmyk/Ranano',
   'ranano-demo': 'https://ranano.pages.dev/',
-  'ranano-repo': 'https://github.com/s74289335-cmyk/Ranano',
-  'diffusion-demo': '',
-  'diffusion-repo': ''
+  'ranano-repo': 'https://github.com/s74289335-cmyk/Ranano'
 };
 
 const emailLink = document.getElementById('emailLink');
 
 if (profile.email) {
   emailLink.href = `mailto:${profile.email}`;
-} else {
-  emailLink.addEventListener('click', event => {
-    event.preventDefault();
-    alert('Add your email address in script.js before publishing this portfolio.');
-  });
 }
-
 const externalLinks = document.querySelectorAll('.contact-link');
 
 if (profile.linkedin) externalLinks[0].href = profile.linkedin;
