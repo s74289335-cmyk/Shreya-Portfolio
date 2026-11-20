@@ -24,8 +24,8 @@ const profile = {
 const projectLinks = {
   'secureai-demo': 'https://cb11df24.secureai-8kt.pages.dev/',
   'secureai-repo': 'https://github.com/secureai79/SecureAI',
-  'layerly-demo': 'https://shreya-portfoilo.dev/',
-  'layerly-repo': 'https://github.com/s74289335-cmyk/Ranano',
+  'layerly-demo': '',
+  'layerly-repo': '',
   'ranano-demo': 'https://ranano.pages.dev/',
   'ranano-repo': 'https://github.com/s74289335-cmyk/Ranano'
 };
