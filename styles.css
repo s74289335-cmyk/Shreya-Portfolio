@@ -134,3 +134,15 @@ body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opa
   .scroll-progress{display:none}
   .experience-card:hover{transform:none}
 }
+
+/* ===== Layout fix: stop sideways overflow / left-edge clipping (keep last) ===== */
+html,body{max-width:100%;overflow-x:clip}
+.ambient{position:fixed}
+.section-wrap{width:min(1120px,calc(100% - 64px));margin-left:auto;margin-right:auto}
+.site-header{width:min(1280px,calc(100% - 64px));margin-left:auto;margin-right:auto}
+@media(max-width:800px){
+  .section-wrap,.site-header{width:calc(100% - 40px)}
+}
+@media(max-width:430px){
+  .section-wrap,.site-header{width:calc(100% - 34px)}
+}
